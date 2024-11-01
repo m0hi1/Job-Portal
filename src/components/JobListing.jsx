@@ -24,8 +24,8 @@ const JobListing = ({ job }) => {
             <FaMapMarker className='inline text-lg mb-1 mr-1' />
             {job.location}
           </div>
-          <Link to={`/job/${job.id}`}
-            className='h-[42px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2  rounded-lg text-center text-sm'
+          <Link to={`/jobs/${job.id}`}
+            className='h-[35px] bg-indigo-600 hover:bg-indigo-500 text-white px-2 py-2 rounded-lg text-center text-sm'
           >Read More</Link>
         </div>
       </div>
